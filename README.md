@@ -17,3 +17,4 @@ Repositori ini berisi kumpulan tugas praktikum dari Modul 1 hingga Modul 7 untuk
 Nama: Nazwa Adinda Zhafirah 
 NIM: 202312047  
 Kampus: STITEK Bontang
+

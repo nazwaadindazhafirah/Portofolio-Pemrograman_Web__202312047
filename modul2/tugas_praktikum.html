@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praktikum CSS</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #add8e6;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+    }
+    h1 {
+      color: white;
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p {
+      background-color: #d3d3d3;
+      color: black;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    .box-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .box {
+      border: 2px solid black;
+      padding: 10px;
+      height: 150px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .box1 {
+      background-color: #ff9999;
+    }
+    .box2 {
+      background-color: #99ff99;
+    }
+    .box3 {
+      background-color: #9999ff;
+    }
+    @media (max-width: 768px) {
+      .box-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        padding: 10px;
+      }
+
+      .box {
+        height: 120px;
+      }
+
+      .box-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Praktikum CSS</h1>
+    <p>Halaman ini dibuat untuk latihan dasar penggunaan CSS, termasuk grid layout, responsivitas, dan styling elemen dasar seperti teks dan kotak berwarna.</p>
+    
+    <div class="box-container">
+      <div class="box box1">Kotak 1</div>
+      <div class="box box2">Kotak 2</div>
+      <div class="box box3">Kotak 3</div>
+    </div>
+  </div>
+</body>
+</html>
