@@ -26,27 +26,29 @@ Repositori ini berisi kumpulan tugas praktikum dari mata kuliah Pemrograman Web 
 ---
 
 ## 📁 Struktur Folder
+```
 Portofolio-Pemrograman-Web-202312047/
 ├── modul1/
-│ └── tugas_modul1.html
+│   └── tugas_modul1.html
 ├── modul2/
-│ └── tugas_praktikum.html
+│   └── tugas_praktikum.html
 ├── modul3/
-│ └── tugas_modul3.html
+│   └── tugas_modul3.html
 ├── modul4/
-│ └── tugas_modul4.html
+│   └── tugas_modul4.html
 ├── modul5/
-│ └── buku_tamu.php
+│   └── buku_tamu.php
 ├── modul6/
-│ ├── index.php
-│ ├── tambah.php
-│ ├── edit.php
-│ ├── hapus.php
-│ ├── koneksi.php
-│ ├── proses_tambah.php
-│ ├── proses_edit.php
-│ └── toko.sql
+│   ├── index.php
+│   ├── tambah.php
+│   ├── edit.php
+│   ├── hapus.php
+│   ├── koneksi.php
+│   ├── proses_tambah.php
+│   ├── proses_edit.php
+│   └── toko.sql
 └── README.md
+```
 
 ---
 
